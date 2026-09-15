@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Entornos y editores
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Secretos y configuración local
+.env
+.env.*
+!.env.example
+odoo.conf
+odoo*.conf
+*credentials*
+*credenciales*
+!addons/megaprint_fel_credentials_test_ferre/
+!addons/megaprint_fel_credentials_test_ferre/**
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Datos y respaldos operativos
+filestore/
+backups/
+backup/
+dumps/
+*.dump
+*.bak
+*.backup
+*.sql
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.log
+
+# Datos empresariales exportados
+# Exportaciones empresariales en la raíz (las plantillas/recursos internos de addons sí se versionan)
+/*.xls
+/*.xlsx
+/data_exports/
+inventario_*.csv
+clientes_*.csv
+proveedores_*.csv
+
+# Windows / macOS
+Thumbs.db
+Desktop.ini
+.DS_Store
